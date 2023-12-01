@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import logo from './favicon.ico'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
