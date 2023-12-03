@@ -1,23 +1,13 @@
-// 'use client'
-// import React from 'react'
+import { useRouter } from 'next/navigation';
+import React from 'react';
 
-// const SearchData = ({location}) => {
-//    console.log(location)
-//   return (
-//     <section className="flex-grow pt-14 px-6">
-//       <p className="text-xs">test</p>
-//       <h1 className="text-3xl font-semibold mt-2 mb-6">Stays in Mars</h1>
+const SearchData = ({ location, startDate, endDate, numberGuests }) => {
     
-//       <div className="hidden lg:inline-flex mb-5 space-x-3 text-gray-800 whitespace-nowrap">
-//         <p className="button">Canceletion Flexability</p>
-//         <p className="button">Type of Place</p>
-//         <p className="button">Price</p>
-//         <p className="button">Rooms and Beds</p>
-//         <p className="button">More filters</p>
-//       </div>
-//     </section>
 
-//   )
-// }
+  const data = [];
+  data.push({ location, startDate, endDate, numberGuests });
 
-// export default SearchData
+
+};
+
+export default SearchData;
