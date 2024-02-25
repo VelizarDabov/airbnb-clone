@@ -1,6 +1,3 @@
-import { useRouter } from 'next/navigation';
-import React from 'react';
-
 const SearchData = ({ location, startDate, endDate, numberGuests }) => {
     
 
