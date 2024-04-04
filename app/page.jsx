@@ -1,7 +1,6 @@
 import Banner from '@/components/Banner'
 import Header from '@/components/Header'
 import Head from 'next/head'
-import Image from 'next/image'
 import  {towns } from '@/data/Towns'
 import SmallCard from '@/components/SmallCard'
 import {places} from '@/data/Places'
