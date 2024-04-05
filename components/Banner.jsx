@@ -10,7 +10,7 @@ const Banner = () => {
       />
       <div className="absolute top-1/4 w-full text-center text-gray-800">
         <p className="text-bold sm:text-lg mt-7 font-semibold">
-          Not sure where to go ?
+          Not sure where to go?
         </p>
         <button className="text-purple-500 bg-white px-10 py-4 shadow-md rounded-full font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150">
           I'm flexible
